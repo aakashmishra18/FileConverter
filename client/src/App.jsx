@@ -9,7 +9,7 @@ import { imagesToPdf, mergePdfs, splitPdf, downloadPdf, formatBytes } from "./li
 const TOOLS = [
   { id: "images", title: "Images to PDF", description: "Turn JPG and PNG image's into a PDF.", icon: FileImage, tint: "lavender", formats: "JPG, PNG", action: "Convert to PDF" },
   { id: "merge", title: "Merge PDF", description: "Combine PDFs in the order you choose.", icon: Files, tint: "mint", formats: "PDF", action: "Merge PDFs" },
-  { id: "split", title: "Split PDF", description: "Extract the pages you need into a new PDF.", icon: Scissors, tint: "peach", formats: "PDF", action: "Extract pages" }
+  { id: "split", title: "Split PDF", description: "Extractt the pages you need into a new PDF.", icon: Scissors, tint: "peach", formats: "PDF", action: "Extract pages" }
 ];
 
 function App() {
